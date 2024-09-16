@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #343a40; /* Texto gris oscuro */
+}
+
+h1, h2, h3 {
+    color: #03A9F4; /* Color azul eléctrico */
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #03A9F4; /* Color azul eléctrico */
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    background-color: #0097A7; /* Más oscuro al pasar el ratón */
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #e9ecef; /* Fondo gris claro */
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.jumbotron p.lead {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #03A9F4;
+    border-color: #03A9F4;
+}
+
+.btn-primary:hover {
+    background-color: #0097A7;
+    border-color: #007BA7;
+}
+
+/* Formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+/* Custom Styles for this page */
+
+.page-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px; 
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    font-weight: bold;
+    color: #03A9F4;
+}

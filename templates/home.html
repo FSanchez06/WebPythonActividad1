@@ -1,0 +1,30 @@
+<!-- home.html -->
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Bienvenido al Internet de las Cosas (IoT)</h1>
+    <p class="lead">Conéctate al futuro con dispositivos inteligentes y automatización.</p>
+    <hr class="my-4">
+    <p>Descubre cómo el IoT está revolucionando hogares, ciudades e industrias.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('about') }}" role="button">Aprende más</a >
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4 text-center">
+        <i class="fas fa-home fa-3x mb-3"></i>
+        <h2>Hogares Inteligentes</h2>
+        <p>Automatización y control desde cualquier lugar.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <i class="fas fa-industry fa-3x mb-3"></i>
+        <h2>Industria 4.0</h2>
+        <p>Optimiza procesos con tecnologías IoT.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <i class="fas fa-city fa-3x mb-3"></i>
+        <h2>Ciudades Inteligentes</h2>
+        <p>Soluciones para mejorar la calidad de vida urbana.</p>
+    </div>
+</div>
+{% endblock %}

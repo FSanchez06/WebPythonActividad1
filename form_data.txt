@@ -1,0 +1,18 @@
+Nombre: Felipe Sanchez
+Email: felipe@gmail.com
+Teléfono: 3223812438
+Intereses: ciudades
+Mensaje: En la cama : D
+
+Nombre: Felipe Sanchez
+Email: felip@gmail.com
+Teléfono: 3502259110
+Intereses: salud
+Mensaje: Intereses en la salud con IoT
+
+Nombre: Angela Contreras
+Email: angcon@gmail.com
+Teléfono: 3106015401
+Intereses: ciudades
+Mensaje: Hoy es noche de aguapanela con queso 
+

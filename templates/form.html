@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Formulario de Inscripción</h1>
+
+    <form action="{{ url_for('form') }}" method="POST" class="needs-validation" novalidate>
+        {{ form.hidden_tag() }}
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre Completo</label>
+            {{ form.nombre(class="form-control", placeholder="Ingresa tu nombre completo", required=True) }}
+            <div class="invalid-feedback">Por favor, ingresa tu nombre completo.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            {{ form.email(class="form-control", placeholder="Ingresa tu correo electrónico", required=True) }}
+            <div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            {{ form.telefono(class="form-control", placeholder="Ingresa tu número de teléfono", required=True) }}
+            <div class="invalid-feedback">Por favor, ingresa tu número de teléfono.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="intereses" class="form-label">Intereses en IoT</label>
+            {{ form.intereses(class="form-select", required=True) }}
+            <div class="invalid-feedback">Por favor, selecciona un interés.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje Adicional</label>
+            {{ form.mensaje(class="form-control", rows="3") }}
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+{% endblock %}
